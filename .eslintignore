@@ -1,0 +1,9 @@
+node_modules
+**/.next/**
+**/_next/**
+**/dist/**
+coverage
+build
+.husky
+.env
+setupTests.ts

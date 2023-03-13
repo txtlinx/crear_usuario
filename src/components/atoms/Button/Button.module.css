@@ -1,0 +1,124 @@
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 149px;
+    height: 48px;
+    white-space: nowrap;
+    transition: all 500ms linear;
+}
+
+.btn:focus{
+    outline: 2px solid #007ab7;
+    outline-offset: 2px;
+}
+
+.btn .n1:hover{
+    background: #CC4400;
+    border: 2px solid #CC4400;
+    color: #ffffff;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0, 2));
+}
+
+.n1.contained{
+    background-color: #FF5500;
+    border: 2px solid #CC4400;
+}
+
+.n1.contained:hover{
+    background: #CC4400;
+    border: 2px solid #CC4400;
+    color: #ffffff;
+}
+.n1.text{
+    background-color: transparent;
+    color:#56504C;
+    border: none;
+}
+
+.n1.text:hover{
+    background: #EC7000;
+    border: 2px solid #EC7000;
+    color: #ffffff;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0, 2));
+}
+.n1.link, .n2.link{
+    background-color: transparent;
+    color: #003767;
+    border: none;
+    text-decoration: underline;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    font-weight: 900;
+}
+
+.n1.link:hover, .n2.link:hover{
+    background: transparent;
+    border: none;
+    color: #003767;
+}
+
+.n1.link:focus, .n2.link:focus{
+    outline: none;
+}
+
+
+.btn .n2:hover{
+    background: #CC4400;
+    border: 2px solid #CC4400;
+    color: #ffffff;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0, 2));
+}
+
+.n2.contained{
+    background-color: transparent;
+    border: 2px solid #000512;
+    border-radius: 8px;
+}
+
+.n2.contained:hover{
+    background: #000512;
+    border: 2px solid #000512;
+    color: #ffffff;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0, 2));
+}
+
+.n2.contained:hover .sk-fading-circle .sk-circle:before{
+    background-color: #ffffff;
+}
+
+.n2.text{
+    background-color: transparent;
+    color:#56504C;
+    border: none;
+}
+
+.small{
+    width: 15%;
+}
+.medium{
+    width: 50%;
+}
+.large{
+    width: 100%;
+}
+
+.btn:disabled{
+    background-color: #D9D3CF;
+    border: 2px solid #D9D3CF;
+    color: #56504C;
+    cursor: not-allowed;
+}
+
+.btn:hover:disabled{
+    background-color: #D9D3CF;
+    border: 2px solid #D9D3CF;
+    color: #56504C;
+    cursor: not-allowed;
+}
